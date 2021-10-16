@@ -1,0 +1,22 @@
+body{
+    color:black;
+    background: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list{
+    color: navy
+}
+a{
+    color: black;
+}
+
+.stamp {
+    width: 500px;
+    height: 414px;
+    background: #fff url(george.jpg) no-repeat;
+    border: 12px dashed #1b1a19; }
+.stamp p {
+    color: #fff;
+    margin: 10px 10px 0 0;
+    font: bold 60px Georgia, "Times New Roman", Times, serif;
+    text-align: right; }

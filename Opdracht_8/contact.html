@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Een pagina over mij</a></li>
+                <li><a href="http://www.google.com" target="_blank">Link naar google</a></li>
+                <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header">
+        <header>
+            <h1>Je recept uploaden kan hier!</h1>
+        </header>
+    </div>
+    <div class="main">
+        <main>
+            <form name="contact" method="post" class="forms" data-netlify="true">
+                <input type="name" name="Naam" placeholder="Naam" />
+                <input type="email" name="Email" placeholder="Emailadres" />
+                <input type="tel" name="Telefoonnummer" placeholder="Telefoonnummer">
+                <input type="number" name="Leeftijd" placeholder="Leeftijd">
+                <input type="date" name="Geboortedatum" value="Geboortedatum" placeholder="Geboortedatum">
+                <div class="radio">
+                    <label>Geslacht:</label><br>
+                    <input type="radio" id="Man" name="Geslacht" value="Man">
+                    <label for="Man">Man</label><br>
+                    <input type="radio" id="Vrouw" name="Geslacht" value="Vrouw">
+                    <label for="Vrouw">Vrouw</label><br>
+                    <input type="radio" id="Zeg ik liever niet" name="Geslacht" value="Zeg ik liever niet">
+                    <label for="Zeg ik liever niet">Zeg ik liever niet</label><br>
+                    <hr>
+                </div>
+                <div class="checkbox">
+                    <label>Favorite Cuisine:</label><br>
+                    <input type="checkbox" id="French" name="Favorite Cuisine" value="French">
+                    <label for="French">French</label><br>
+                    <input type="checkbox" id="Italian" name="Favorite Cuisine" value="Italian">
+                    <label for="Italian">Italian</label><br>
+                    <input type="checkbox" id="Spanish" name="Favorite Cuisine" value="Spanish">
+                    <label for="Spanish">Spanish</label><br>
+                    <input type="checkbox" id="Arabic" name="Favorite Cuisine" value="Arabic">
+                    <label for="Arabic">Arabic</label><br>
+                    <hr>
+                </div>
+                <label>Favoriete kleur schort:</label><br>
+                <input type="color" name="Favoriete kleur schort">
+                <textarea name="Textarea" placeholder="Biografie, vertel wat over jezelf!"></textarea>
+                <label>Upload je recept hier:</label><br>
+                <input type="file" name="recept">
+                <input type="url" name="url to website" placeholder="PLaats de link naar je site">
+                <input class="button" type="reset" />
+                <input class="button" type="submit" />
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Toggle menu in the making</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="toggleicon">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div id="dropdownmenu" class="dropdown-content">
+            <form>
+                <span id="default-background" class="colorpicker">
+                    <input type="radio" name="background" id="default-background-input" checked="checked">
+                    <label for="default-background-input">Default</label>
+                </span>
+                <span id="blue-background" class="colorpicker">
+                    <input type="radio" name="background" id="blue-background-input">
+                    <label for="blue-background-input">Blauw</label>
+                </span>
+                <span id="red-background" class="colorpicker">
+                    <input type="radio" name="background" id="red-background-input">
+                    <label for="red-background-input">Rood</label>
+                </span>
+                <span id="green-background" class="colorpicker">
+                    <input type="radio" name="background" id="green-background-input">
+                    <label for="green-background-input">Groen</label>
+                </span>
+                <span id="yellow-background" class="colorpicker">
+                    <input type="radio" name="background" id="yellow-background-input">
+                    <label for="yellow-background-input">Geel</label>
+                </span>
+            </form>
+        </div>
+    </nav>
+    <main>
+        <h2>De kleur van de pagina is:</h2>
+        <h2 id="display-color-name">Grijs</h2>
+    </main>
+</body>
+
+
+</html>
